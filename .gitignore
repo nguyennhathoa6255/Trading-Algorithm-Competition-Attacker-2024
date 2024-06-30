@@ -1,0 +1,10 @@
+env
+ta_lib-0.4.25-cp311-cp311-win_amd64.whl
+vsa.py
+# requirements.txt
+stock_venv
+git help.txt
+# build_algo
+requirements.txt
+
+Signal-with-EMA-updated.ipynb
