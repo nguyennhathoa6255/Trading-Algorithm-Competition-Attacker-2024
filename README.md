@@ -22,11 +22,8 @@
 - Hơn nữa còn có thông tin về phần trăm danh mục của các mã cố phiếu, hiệu suất theo ngày so với VN-INDEX khi sử dụng điểm mua/bán do thuật toán sinh ra.
 
 ![title-image](/image/vong2.png)
-## Các nhánh
+## Tổ chức dự án
 
-### 1. Nhánh **main**
-
-- Chứa code dùng trong lúc phát triển thuật toán.<br>
 - Lọc cổ phiếu: Main -> FilteringStock -> stock_filter_past.py
 - Thuật toán đưa ra tín hiệu mua/bán: Main -> Algorithm -> alphas.py, calculation.py
 
@@ -51,13 +48,6 @@
 └── requirements.txt                  : Package cần thiết
 
 ```
-
-### 2. Nhánh **report**<br>
-- Chứa file jupyter notebook trình bày kết quả lọc cổ phiếu và chạy thuật toán tìm điểm mua và và thuật toán giao dịch.
-- Các module và chương trình để chạy thử thuật toán.
-### 3. Nhánh **chart**<br>
-- Chứa các module và file, chương trình để visualize thuật toán và upstream.
-
 
 ## Thành viên nhóm
 

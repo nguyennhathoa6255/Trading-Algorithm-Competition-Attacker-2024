@@ -1,4 +1,4 @@
-#### Xử lỹ lỗi import module
+# Xử lỹ lỗi import module
 import plotly.graph_objects as go
 import streamlit as st
 from datetime import date
@@ -12,7 +12,7 @@ sys.path.append(os.path.join(current_dir, 'StockFiltering'))
 sys.path.append(os.path.join(current_dir, 'Algorithm'))
 sys.path.append(os.path.join(current_dir, 'Chart'))
 
-# ####### Nhập các thư viện và module
+# Nhập các thư viện và module
 from StockFiltering import stock_filter_past as stfp
 from Class.portfolioClass import Portfolio
 from Algorithm import calculation as cal
